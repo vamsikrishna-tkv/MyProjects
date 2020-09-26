@@ -1,0 +1,18 @@
+The valley_list is created by the following steps. A sorted list is randomly divided in two parts, not necessarily equal. The left part is then reversed and put back in place.
+
+sorted_list: [1, 2, 3, 4, 6, 7, 8, 11, 13, 14, 15, 16, 17]
+
+valley_list will be obtained by dividing this list at 13 and reversing the left half making it [13, 11, 8, 7, 6, 4, 3, 2, 1, 14, 15, 16, 17]. Find the index of the given integer key in the given valley_list.
+
+
+Input:[14, 13, 12, 10, 8, 7, 5, 4, 2, 16, 17, 18, 20]
+8
+Output:4
+
+Input:[13, 11, 8, 7, 6, 4, 3, 2, 1, 14, 15, 16, 17]
+32
+Output:-1
+
+Input:[13, 11, 8, 7, 6, 4, 3, 2, 1, 14, 15, 16, 17]
+8
+Output:2

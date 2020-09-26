@@ -1,0 +1,13 @@
+Given any three terms of some random Arithematic progression and an integer key, you have to determine if the key will be present in the Arithematic sequence or no. check out sample input/output for more clarification.
+
+Input:9, 11, 13
+19
+Output:True
+
+Input:9, 11, 13
+20
+Output:False
+
+Input:9, 11, 13
+3
+Output:True
