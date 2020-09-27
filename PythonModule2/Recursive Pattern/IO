@@ -1,0 +1,8 @@
+Given a positive integer 'n' and another positive integer 'k' (<n),  print the following pattern using recursion.
+
+Example:
+Input 1: n = 12, k = 5
+Output 2: 12, 7, 2, -3, 2, 7, 12
+
+Input 2: n = 10, k =2
+Output 2: 10, 8, 6, 4, 2, 0, 2, 4, 6, 8, 10
